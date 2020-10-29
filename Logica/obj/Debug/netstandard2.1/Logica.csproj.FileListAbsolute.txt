@@ -1,0 +1,14 @@
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Logica\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Logica\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Logica\obj\Debug\netstandard2.1\Logica.pdb

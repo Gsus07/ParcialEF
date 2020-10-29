@@ -1,0 +1,15 @@
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\bin\Debug\netcoreapp3.1\Datos.deps.json
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\bin\Debug\netcoreapp3.1\Datos.runtimeconfig.json
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\bin\Debug\netcoreapp3.1\Datos.runtimeconfig.dev.json
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\bin\Debug\netcoreapp3.1\Datos.dll
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\bin\Debug\netcoreapp3.1\Datos.pdb
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\bin\Debug\netcoreapp3.1\Entidad.dll
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\bin\Debug\netcoreapp3.1\Entidad.pdb
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\obj\Debug\netcoreapp3.1\Datos.csprojAssemblyReference.cache
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\obj\Debug\netcoreapp3.1\Datos.AssemblyInfoInputs.cache
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\obj\Debug\netcoreapp3.1\Datos.AssemblyInfo.cs
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\obj\Debug\netcoreapp3.1\Datos.csproj.CoreCompileInputs.cache
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\obj\Debug\netcoreapp3.1\Datos.csproj.CopyComplete
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\obj\Debug\netcoreapp3.1\Datos.dll
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\obj\Debug\netcoreapp3.1\Datos.pdb
+C:\Users\jesus\OneDrive\Escritorio\Parcial con EF\Datos\obj\Debug\netcoreapp3.1\Datos.genruntimeconfig.cache
