@@ -22,22 +22,22 @@ export class PersonaService {
   getPersona(persona: Persona): Observable<Persona> {
 
     return this.http.get<Persona>(this.baseUrl + 'api/Persona' + '/' + persona.identificacion)
-      .pipe(tap(_ => this.handleErrorService.log('verificado con exito')),
+      .pipe(tap(_ => this.handleErrorService.log('datos verificados con exito')),
         catchError(this.handleErrorService.handleError<Persona>('buscado con exito', new Persona()))
       );
   }
 
   post(persona: Persona): Observable<Persona> {
     return this.http.post<Persona>(this.baseUrl + 'api/Persona', persona)
-      .pipe(tap(_ => this.handleErrorService.log('datos guardados')),
-        catchError(this.handleErrorService.handleError<Persona>('Registro Persona', null))
+      .pipe(tap(_ => this.handleErrorService.log('datos guardados de manera correcta')),
+        catchError(this.handleErrorService.handleError<Persona>('Registro de Personas', null))
       );
   }
 
   get(): Observable<Persona[]> {
     return this.http.get<Persona[]>(this.baseUrl + 'api/Persona').
-      pipe(tap(_ => this.handleErrorService.log('datos consultados')),
-        catchError(this.handleErrorService.handleError<Persona[]>('Consultar de Persona', null))
+      pipe(tap(_ => this.handleErrorService.log('datos consultados de manera correcta')),
+        catchError(this.handleErrorService.handleError<Persona[]>('Consulta de Personas', null))
       );
   }
   getSumaApoyo(): Observable<number> {
