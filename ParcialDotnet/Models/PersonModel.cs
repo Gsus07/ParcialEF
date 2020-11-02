@@ -1,6 +1,3 @@
-using System.Runtime.CompilerServices;
-using System.Reflection.PortableExecutable;
-using System.Reflection.Metadata.Ecma335;
 using Entidad;
 using System;
 
@@ -10,7 +7,7 @@ namespace presentacion.Models
     {
         public string IdApoyo { get; set; }
         public decimal ValorApoyo { get; set; }
-        public string ModalidadApoyo{ get; set; }
+        public string ModalidadApoyo { get; set; }
         public DateTime Fecha { get; set; }
     }
     public class PersonaInputModel
@@ -27,7 +24,7 @@ namespace presentacion.Models
 
     public class PersonaViewModel : PersonaInputModel
     {
-        public PersonaViewModel(){}
+        public PersonaViewModel() { }
 
         public PersonaViewModel(Persona persona)
         {
@@ -37,12 +34,14 @@ namespace presentacion.Models
             Edad = persona.Edad;
             Departamento = persona.Departamento;
             Ciudad = persona.Ciudad;
-            Apoyo =  new ApoyoModel();
-            Apoyo.IdApoyo = persona.Apoyo.IdApoyo;
-            Apoyo.ValorApoyo = persona.Apoyo.ValorApoyo;
-            Apoyo.ModalidadApoyo = persona.Apoyo.ModalidadApoyo;
-            Apoyo.Fecha = persona.Apoyo.Fecha;
+            Apoyo = new ApoyoModel
+            {
+                IdApoyo = persona.Apoyo.IdApoyo,
+                ValorApoyo = persona.Apoyo.ValorApoyo,
+                ModalidadApoyo = persona.Apoyo.ModalidadApoyo,
+                Fecha = persona.Apoyo.Fecha
+            };
         }
-       
-    } 
+
+    }
 }

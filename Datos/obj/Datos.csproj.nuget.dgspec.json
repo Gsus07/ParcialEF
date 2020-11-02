@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Datos\\Datos.csproj": {}
+    "P:\\New Folder\\ParcialEF\\Datos\\Datos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Datos\\Datos.csproj": {
+    "P:\\New Folder\\ParcialEF\\Datos\\Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Datos\\Datos.csproj",
+        "projectUniqueName": "P:\\New Folder\\ParcialEF\\Datos\\Datos.csproj",
         "projectName": "Datos",
-        "projectPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Datos\\Datos.csproj",
-        "packagesPath": "C:\\Users\\jesus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Datos\\obj\\",
+        "projectPath": "P:\\New Folder\\ParcialEF\\Datos\\Datos.csproj",
+        "packagesPath": "C:\\Users\\Cantt\\.nuget\\packages\\",
+        "outputPath": "P:\\New Folder\\ParcialEF\\Datos\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Cantt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -27,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Entidad\\Entidad.csproj": {
-                "projectPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Entidad\\Entidad.csproj"
+              "P:\\New Folder\\ParcialEF\\Entidad\\Entidad.csproj": {
+                "projectPath": "P:\\New Folder\\ParcialEF\\Entidad\\Entidad.csproj"
               }
             }
           }
@@ -88,22 +92,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Entidad\\Entidad.csproj": {
+    "P:\\New Folder\\ParcialEF\\Entidad\\Entidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Entidad\\Entidad.csproj",
+        "projectUniqueName": "P:\\New Folder\\ParcialEF\\Entidad\\Entidad.csproj",
         "projectName": "Entidad",
-        "projectPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Entidad\\Entidad.csproj",
-        "packagesPath": "C:\\Users\\jesus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Entidad\\obj\\",
+        "projectPath": "P:\\New Folder\\ParcialEF\\Entidad\\Entidad.csproj",
+        "packagesPath": "C:\\Users\\Cantt\\.nuget\\packages\\",
+        "outputPath": "P:\\New Folder\\ParcialEF\\Entidad\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Cantt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -160,7 +168,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

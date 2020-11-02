@@ -8319,20 +8319,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jesus\\.nuget\\packages\\": {}
+    "C:\\Users\\Cantt\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Logica\\Logica.csproj",
+      "projectUniqueName": "P:\\New Folder\\ParcialEF\\Logica\\Logica.csproj",
       "projectName": "Logica",
-      "projectPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Logica\\Logica.csproj",
-      "packagesPath": "C:\\Users\\jesus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Logica\\obj\\",
+      "projectPath": "P:\\New Folder\\ParcialEF\\Logica\\Logica.csproj",
+      "packagesPath": "C:\\Users\\Cantt\\.nuget\\packages\\",
+      "outputPath": "P:\\New Folder\\ParcialEF\\Logica\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Cantt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8344,11 +8349,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Datos\\Datos.csproj": {
-              "projectPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Datos\\Datos.csproj"
+            "P:\\New Folder\\ParcialEF\\Datos\\Datos.csproj": {
+              "projectPath": "P:\\New Folder\\ParcialEF\\Datos\\Datos.csproj"
             },
-            "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Entidad\\Entidad.csproj": {
-              "projectPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\Parcial con EF\\Entidad\\Entidad.csproj"
+            "P:\\New Folder\\ParcialEF\\Entidad\\Entidad.csproj": {
+              "projectPath": "P:\\New Folder\\ParcialEF\\Entidad\\Entidad.csproj"
             }
           }
         }
@@ -8396,7 +8401,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
