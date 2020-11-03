@@ -6,15 +6,13 @@ namespace Entidad
 {
     public class Apoyo
     {
-        
         [Key]
-        [Column(TypeName="varchar(5)")]
-        public string IdApoyo { get; set; }
-        [Column(TypeName="decimal")]
+        public int Id { get; set; }
         public decimal ValorApoyo { get; set; }
-        [Column(TypeName="varchar(17)")]
+        [MaxLength(17)]
         public string ModalidadApoyo { get; set; }
-        [Column(TypeName="Date")]
+        
+        [DataType(DataType.Date)]
         public DateTime Fecha { get; set; }
     }
 }

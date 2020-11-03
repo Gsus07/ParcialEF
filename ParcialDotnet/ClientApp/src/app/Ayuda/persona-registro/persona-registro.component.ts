@@ -19,6 +19,7 @@ export class PersonaRegistroComponent implements OnInit {
   ngOnInit() {
     this.persona = new Persona();
     this.Apoyo = new Apoyo();
+    this.persona.apoyo = this.Apoyo;
     this.ApoyoDisponible();
   }
 
@@ -30,28 +31,23 @@ export class PersonaRegistroComponent implements OnInit {
   }
 
   isRegistered() {
-    this.persona.Apoyo = this.Apoyo;
-
-    this.personaService.getPersona(this.persona).subscribe((p) => {
-      if (p.identificacion == this.persona.identificacion) {
-        alert('persona ya registrada en el sistema');
-      } else {
-        //if (this.persona.Apoyo.valorApoyo <= this.CantidadDisponible) {
-        console.log('Aprovado');
-        this.add();
-        //} else {
-        //alert('supera el monto disponible ' + this.CantidadDisponible);
-        //}
-      }
-    });
+    this.ApoyoDisponible();
+    this.persona.apoyo = this.Apoyo;
+    if (this.persona.apoyo.valorApoyo <= this.CantidadDisponible) {
+      console.log('Aprovado');
+      this.add();
+    } else {
+      alert('supera el monto disponible ' + this.CantidadDisponible);
+    }
   }
 
   add(): void {
     console.log('En proceso');
+    this.persona.apoyo.valorApoyo = +this.persona.apoyo.valorApoyo;
     this.personaService.post(this.persona).subscribe((p) => {
       if (p != null) {
         alert('Persona guadada');
-        this.persona = p;
+        console.log(p);
       }
     });
   }

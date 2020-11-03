@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Datos.Migrations
 {
     [DbContext(typeof(ParcialContext))]
-    [Migration("20201029014826_Initial")]
+    [Migration("20201103010932_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,19 +23,22 @@ namespace Datos.Migrations
 
             modelBuilder.Entity("Entidad.Apoyo", b =>
                 {
-                    b.Property<string>("IdApoyo")
-                        .HasColumnType("varchar(5)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<DateTime>("Fecha")
-                        .HasColumnType("Date");
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("ModalidadApoyo")
-                        .HasColumnType("varchar(17)");
+                        .HasColumnType("nvarchar(17)")
+                        .HasMaxLength(17);
 
                     b.Property<decimal>("ValorApoyo")
-                        .HasColumnType("decimal");
+                        .HasColumnType("decimal(18,2)");
 
-                    b.HasKey("IdApoyo");
+                    b.HasKey("Id");
 
                     b.ToTable("Apoyo");
                 });
@@ -43,29 +46,34 @@ namespace Datos.Migrations
             modelBuilder.Entity("Entidad.Persona", b =>
                 {
                     b.Property<string>("Identificacion")
-                        .HasColumnType("varchar(12)");
+                        .HasColumnType("nvarchar(10)")
+                        .HasMaxLength(10);
 
-                    b.Property<string>("ApoyoIdApoyo")
-                        .HasColumnType("varchar(5)");
+                    b.Property<int?>("ApoyoId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Ciudad")
-                        .HasColumnType("varchar(15)");
+                        .HasColumnType("nvarchar(15)")
+                        .HasMaxLength(15);
 
                     b.Property<string>("Departamento")
-                        .HasColumnType("varchar(15)");
+                        .HasColumnType("nvarchar(15)")
+                        .HasMaxLength(15);
 
-                    b.Property<decimal>("Edad")
-                        .HasColumnType("decimal");
+                    b.Property<int>("Edad")
+                        .HasColumnType("int");
 
                     b.Property<string>("Nombre")
-                        .HasColumnType("varchar(20)");
+                        .HasColumnType("nvarchar(20)")
+                        .HasMaxLength(20);
 
                     b.Property<string>("Sexo")
-                        .HasColumnType("varchar(2)");
+                        .HasColumnType("nvarchar(2)")
+                        .HasMaxLength(2);
 
                     b.HasKey("Identificacion");
 
-                    b.HasIndex("ApoyoIdApoyo");
+                    b.HasIndex("ApoyoId");
 
                     b.ToTable("Personas");
                 });
@@ -74,7 +82,7 @@ namespace Datos.Migrations
                 {
                     b.HasOne("Entidad.Apoyo", "Apoyo")
                         .WithMany()
-                        .HasForeignKey("ApoyoIdApoyo");
+                        .HasForeignKey("ApoyoId");
                 });
 #pragma warning restore 612, 618
         }

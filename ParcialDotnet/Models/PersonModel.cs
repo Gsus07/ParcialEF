@@ -5,7 +5,7 @@ namespace presentacion.Models
 {
     public class ApoyoModel
     {
-        public string IdApoyo { get; set; }
+        public int Id { get; set; }
         public decimal ValorApoyo { get; set; }
         public string ModalidadApoyo { get; set; }
         public DateTime Fecha { get; set; }
@@ -36,7 +36,7 @@ namespace presentacion.Models
             Ciudad = persona.Ciudad;
             Apoyo = new ApoyoModel
             {
-                IdApoyo = persona.Apoyo.IdApoyo,
+                Id = persona.Apoyo.Id,
                 ValorApoyo = persona.Apoyo.ValorApoyo,
                 ModalidadApoyo = persona.Apoyo.ModalidadApoyo,
                 Fecha = persona.Apoyo.Fecha

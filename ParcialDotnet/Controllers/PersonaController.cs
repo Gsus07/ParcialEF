@@ -42,7 +42,6 @@ namespace ParcialDotnet.Controllers
 
                 Apoyo = new Apoyo
                 {
-                    IdApoyo = personaInput.Apoyo.IdApoyo,
                     ValorApoyo = personaInput.Apoyo.ValorApoyo,
                     ModalidadApoyo = personaInput.Apoyo.ModalidadApoyo,
                     Fecha = personaInput.Apoyo.Fecha
