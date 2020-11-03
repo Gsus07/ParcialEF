@@ -9,7 +9,7 @@ import { Persona } from '../models/persona';
 })
 export class PersonaConsultaComponent implements OnInit {
   personas: Persona[];
-  deliveredVale: number = 0;
+  CantidadEntregada: number = 0;
   constructor(private personaService: PersonaService) { }
   ngOnInit() {
   }
@@ -18,14 +18,14 @@ export class PersonaConsultaComponent implements OnInit {
     this.personaService.get().subscribe(result => {
       if (result != null) {
         this.personas = result;
-        this.supportDelivered();
+        this.ApoyoEntregado();
       }
 
     });
   }
-  supportDelivered() {
+  ApoyoEntregado() {
     this.personaService.getSumaApoyo().subscribe(s => {
-      this.deliveredVale = s;
+      this.CantidadEntregada = s;
     });
   }
 

@@ -13,7 +13,7 @@
 </div>
   
 <hr />
-     
+<button type="submit" class="btn btn-blue btn-lg btn-block" (click)="get()">Consultar</button>
 <table class="table table-striped" *ngIf="personas && personas.length">
       
   <thead>
@@ -46,10 +46,12 @@
       <td>{{ persona.ciudad }}</td>
       <td>{{ persona.apoyo.valorApoyo }}</td>
       <td>{{ persona.apoyo.modalidadApoyo }}</td>
-      
-            
+      <td>{{ persona.apoyo.fecha }}</td>
+
+
     </tr>
         
   </tbody>
     
 </table>
+
