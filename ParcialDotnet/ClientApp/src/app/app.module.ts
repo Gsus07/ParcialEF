@@ -11,6 +11,8 @@ import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { PersonaConsultaComponent } from './Ayuda/persona-consulta/persona-consulta.component';
 import { PersonaRegistroComponent } from './Ayuda/persona-registro/persona-registro.component';
+import { LoginComponent } from './login/login.component';
+import { JwtInterceptor } from './services/jwt.interceptor';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { PersonaRegistroComponent } from './Ayuda/persona-registro/persona-regis
     CounterComponent,
     FetchDataComponent,
     PersonaConsultaComponent,
-    PersonaRegistroComponent
+    PersonaRegistroComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -31,7 +34,9 @@ import { PersonaRegistroComponent } from './Ayuda/persona-registro/persona-regis
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
       { path: 'personaConsulta', component: PersonaConsultaComponent },
-      { path: 'personaRegistro', component:PersonaRegistroComponent}
+      { path: 'personaRegistro', component: PersonaRegistroComponent },
+      providers: [{ provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },]
+
     ])
   ],
   providers: [],
